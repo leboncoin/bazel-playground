@@ -5,3 +5,6 @@
 ![build: Bazel](https://img.shields.io/badge/build-bazel-43a047)
 
 Create a dedicated Git branch to setup your Bazel playground environment.
+
+- [intellij-go-source](../../tree/intellij-go-source): Test the Bazel Intellij plugin with a project
+  using `go_source` rules.
