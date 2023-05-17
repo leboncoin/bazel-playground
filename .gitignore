@@ -1,0 +1,14 @@
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# IDE projects
+/.idea/
+/.ijwb/
+.vscode/
+.fleet
+
+# Bazel files
+/bazel-*
+/.bazelrc.user
