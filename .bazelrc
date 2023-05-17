@@ -1,1 +1,5 @@
+build:intellij-info \
+  --aspects=@@intellij_aspect//:intellij_info_bundled.bzl%intellij_info_aspect \
+  --output_groups=intellij-info-generic,intellij-info-go
+
 try-import %workspace%/.bazelrc.user

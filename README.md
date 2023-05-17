@@ -11,6 +11,18 @@ using a [go_test] and a [go_library] with embedded [go_source] rule containing:
 - Generated source files
 - Go dependencies.
 
+## Before
+
+| `testa` Go library                      | `testb` Go test                           |
+|-----------------------------------------|-------------------------------------------|
+| ![testa_lib](docs/before/testa_lib.png) | ![testb_test](docs/before/testb_test.png) |
+
+## After
+
+| `testa` Go library                     | `testb` Go test                          |
+|----------------------------------------|------------------------------------------|
+| ![testa_lib](docs/after/testa_lib.png) | ![testb_test](docs/after/testb_test.png) |
+
 [Bazel Intellij plugin]: https://ij.bazel.build/
 [Go]: https://go.dev/
 
