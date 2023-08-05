@@ -1,0 +1,14 @@
+load("@contrib_rules_jvm//java:defs.bzl", "java_library", "java_test_suite")
+
+package(default_visibility = ["//visibility:public"])
+
+java_library(
+    name = "foo",
+    srcs = ["src/main/java/foo/Foo.java"],
+)
+
+java_test_suite(
+    name = "foo_test",
+    srcs = [],
+    deps = [":foo"],
+)
